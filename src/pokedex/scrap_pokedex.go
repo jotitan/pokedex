@@ -19,8 +19,6 @@ import (
 	"time"
 )
 
-const BaseUrl = "https://www.pokemon.com"
-
 func ScrapDresseur(dataFolder string) {
 	begin := time.Now()
 	cards := extractDresseurs(dataFolder)
